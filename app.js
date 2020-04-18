@@ -42,10 +42,6 @@ function onMouseMove(event){
     }
 }
 
-function onMouseDown(event){
-    painting = true;
-}
-
 function handleColorClick(event){
     const color = event.target.style.backgroundColor;
     ctx.strokeStyle = color;
